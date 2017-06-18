@@ -1,0 +1,68 @@
+<!-- @import "html/head.kit" -->
+
+
+<body>
+  
+    
+   <h1>HAI</h1>
+   
+   <!-- Buttons to press -->
+   
+   <div class="main">
+   
+   <div class="keys">
+     <button data-key="72" class="key ui button">
+      <kbd>H</kbd>
+      <span class="sound"></span>
+   </button>  
+   </div>
+   
+   <div class="keys">
+     <button data-key="65" class="key ui button">
+      <kbd>A</kbd>
+      <span class="sound"></span>
+   </button>  
+   </div>
+   
+   <div class="keys">
+     <button data-key="73" class="key ui button">
+      <kbd>I</kbd>
+      <span class="sound"></span>
+   </button>  
+   </div>
+   
+   <div class="keys">
+     <button data-key="191" class="key ui button">
+      <kbd>?</kbd>
+      <span class="sound"></span>
+   </button>  
+   </div>
+   
+   <div class="keys">
+     <button data-key="49" class="key ui button">
+      <kbd>!</kbd>
+      <span class="sound"></span>
+   </button>  
+   </div>
+   
+    </div>
+    
+    <video autoplay loop id="video-background" muted plays-inline>
+  <source src="img/giphy.mp4" type="video/mp4">
+</video>
+  
+   
+   
+
+
+   
+    <!-- Audio to Play -->
+  <audio data-key="72" src="sounds/heihei1.wav"></audio>
+  <audio data-key="65" src="sounds/heihei2.wav"></audio>
+  <audio data-key="73" src="sounds/heihei3.wav"></audio>
+  <audio data-key="191" src="sounds/heihei4.wav"></audio>
+  <audio data-key="49" src="sounds/heihei5.wav"></audio>
+  
+<!-- @import "html/scripts.kit" --> 
+</body>
+</html>

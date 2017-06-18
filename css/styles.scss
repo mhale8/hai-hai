@@ -1,0 +1,106 @@
+/* Stylehsheet */
+@import url('../fonts/Gloria_Hallelujah/GloriaHallelujah.ttf');
+@import "semantic";
+
+body {
+   font-family: 'Gloria Hallelujah', cursive; 
+}
+
+
+
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+
+
+h1 {
+  top: 175px;
+  position: relative;
+  text-align: center;
+  top-margin: 50px;
+  font-size: 6rem;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #003333;
+}
+
+
+
+.main {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top-margin: 50px;
+}
+
+
+
+.keys {
+  margin: 25px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 3 em;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: #008080;
+  text-shadow: 0 0 .5rem black;
+}
+
+
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+
+
+.playing {
+  background:#91aaaa; 
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+
+
+.button key ui button playing {
+    background: #6b7777;
+}
+
+
+
+kbd {
+  font-family: 'Gloria Hallelujah', cursive;
+  display: block;
+  font-size: 6rem;
+  padding: 30px;
+  
+}
+
